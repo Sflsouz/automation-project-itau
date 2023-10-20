@@ -122,3 +122,4 @@ Então sugiro Dor e Dods, Prazo de entrega e regras de negócio detalhadas.
 - Java 11
 - Cucumber
 - Maven
+- Allure Report
