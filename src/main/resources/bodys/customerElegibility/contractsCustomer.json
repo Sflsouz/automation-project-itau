@@ -1,0 +1,18 @@
+{
+  "elegilibilidade": {
+    "contratos": [
+      {
+        "indicador_conta_ativa": "S",
+        "indicador_cliente_correntista": "S",
+        "codigo_tipo_produto_oferta": "AB",
+        "codigo_produto_origem": 1234
+      },
+      {
+        "indicador_conta_ativa": "S",
+        "indicador_cliente_correntista": "S",
+        "codigo_tipo_produto_oferta": "CB",
+        "codigo_produto_origem": 5678
+      }
+    ]
+  }
+}

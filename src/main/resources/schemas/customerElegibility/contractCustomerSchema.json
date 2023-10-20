@@ -1,0 +1,33 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1697833485.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "elegibilidade_ciente_saida"
+  ],
+  "properties": {
+    "elegibilidade_ciente_saida": {
+      "$id": "#root/elegibilidade_ciente_saida",
+      "title": "Elegibilidade_ciente_saida",
+      "type": "object",
+      "required": [
+        "indicador_elegibilidade_cliente"
+      ],
+      "properties": {
+        "indicador_elegibilidade_cliente": {
+          "$id": "#root/elegibilidade_ciente_saida/indicador_elegibilidade_cliente",
+          "title": "Indicador_elegibilidade_cliente",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "S"
+          ],
+          "pattern": "^.*$"
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/object1697825728.json",
+  "title": "Root",
+  "type": "object",
+  "required": [
+    "args",
+    "data",
+    "files",
+    "form",
+    "headers",
+    "json",
+    "url"
+  ],
+  "properties": {
+    "args": {
+      "$id": "#root/args",
+      "title": "Args",
+      "type": "object",
+      "required": [
+      ],
+      "properties": {
+      }
+    }
+  ,
+    "data": {
+      "$id": "#root/data",
+      "title": "Data",
+      "type": "object",
+      "required": [
+        "elegilibilidade"
+      ],
+      "properties": {
+        "elegilibilidade": {
+          "$id": "#root/data/elegilibilidade",
+          "title": "Elegilibilidade",
+          "type": "object",
+          "required": [
+            "indicador_conta_ativa",
+            "indicador_cliente_correntista",
+            "codigo_produto_origem",
+            "codigo_tipo_produto_oferta"
+          ],
+          "properties": {
+            "indicador_conta_ativa": {
+              "$id": "#root/data/elegilibilidade/indicador_conta_ativa",
+              "title": "Indicador_conta_ativa",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "S"
+              ],
+              "pattern": "^.*$"
+            },
+            "indicador_cliente_correntista": {
+              "$id": "#root/data/elegilibilidade/indicador_cliente_correntista",
+              "title": "Indicador_cliente_correntista",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "S"
+              ],
+              "pattern": "^.*$"
+            },
+            "codigo_produto_origem": {
+              "$id": "#root/data/elegilibilidade/codigo_produto_origem",
+              "title": "Codigo_produto_origem",
+              "type": "integer",
+              "examples": [
+                1234
+              ],
+              "default": 0
+            },
+            "codigo_tipo_produto_oferta": {
+              "$id": "#root/data/elegilibilidade/codigo_tipo_produto_oferta",
+              "title": "Codigo_tipo_produto_oferta",
+              "type": "string",
+              "default": "",
+              "examples": [
+                ""
+              ],
+              "pattern": "^.*$"
+            }
+          }
+        }
+
+      }
+    }
+  ,
+    "files": {
+      "$id": "#root/files",
+      "title": "Files",
+      "type": "object",
+      "required": [
+      ],
+      "properties": {
+      }
+    }
+  ,
+    "form": {
+      "$id": "#root/form",
+      "title": "Form",
+      "type": "object",
+      "required": [
+      ],
+      "properties": {
+      }
+    }
+  ,
+    "headers": {
+      "$id": "#root/headers",
+      "title": "Headers",
+      "type": "object",
+      "required": [
+        "x-forwarded-proto",
+        "x-forwarded-port",
+        "host",
+        "x-amzn-trace-id",
+        "content-length",
+        "accept",
+        "content-type",
+        "user-agent",
+        "accept-encoding"
+      ],
+      "properties": {
+        "x-forwarded-proto": {
+          "$id": "#root/headers/x-forwarded-proto",
+          "title": "X-forwarded-proto",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "https"
+          ],
+          "pattern": "^.*$"
+        },
+        "x-forwarded-port": {
+          "$id": "#root/headers/x-forwarded-port",
+          "title": "X-forwarded-port",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "443"
+          ],
+          "pattern": "^.*$"
+        },
+        "host": {
+          "$id": "#root/headers/host",
+          "title": "Host",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "postman-echo.com"
+          ],
+          "pattern": "^.*$"
+        },
+        "x-amzn-trace-id": {
+          "$id": "#root/headers/x-amzn-trace-id",
+          "title": "X-amzn-trace-id",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "Root=1-6532c3a3-5eef93692482e9ae152f1b25"
+          ],
+          "pattern": "^.*$"
+        },
+        "content-length": {
+          "$id": "#root/headers/content-length",
+          "title": "Content-length",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "146"
+          ],
+          "pattern": "^.*$"
+        },
+        "accept": {
+          "$id": "#root/headers/accept",
+          "title": "Accept",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "*/*"
+          ],
+          "pattern": "^.*$"
+        },
+        "content-type": {
+          "$id": "#root/headers/content-type",
+          "title": "Content-type",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "application/json; charset=UTF-8"
+          ],
+          "pattern": "^.*$"
+        },
+        "user-agent": {
+          "$id": "#root/headers/user-agent",
+          "title": "User-agent",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "Apache-HttpClient/4.5.3 (Java/11.0.15)"
+          ],
+          "pattern": "^.*$"
+        },
+        "accept-encoding": {
+          "$id": "#root/headers/accept-encoding",
+          "title": "Accept-encoding",
+          "type": "string",
+          "default": "",
+          "examples": [
+            "gzip,deflate"
+          ],
+          "pattern": "^.*$"
+        }
+      }
+    }
+  ,
+    "json": {
+      "$id": "#root/json",
+      "title": "Json",
+      "type": "object",
+      "required": [
+        "elegilibilidade"
+      ],
+      "properties": {
+        "elegilibilidade": {
+          "$id": "#root/json/elegilibilidade",
+          "title": "Elegilibilidade",
+          "type": "object",
+          "required": [
+            "indicador_conta_ativa",
+            "indicador_cliente_correntista",
+            "codigo_produto_origem",
+            "codigo_tipo_produto_oferta"
+          ],
+          "properties": {
+            "indicador_conta_ativa": {
+              "$id": "#root/json/elegilibilidade/indicador_conta_ativa",
+              "title": "Indicador_conta_ativa",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "S"
+              ],
+              "pattern": "^.*$"
+            },
+            "indicador_cliente_correntista": {
+              "$id": "#root/json/elegilibilidade/indicador_cliente_correntista",
+              "title": "Indicador_cliente_correntista",
+              "type": "string",
+              "default": "",
+              "examples": [
+                "S"
+              ],
+              "pattern": "^.*$"
+            },
+            "codigo_produto_origem": {
+              "$id": "#root/json/elegilibilidade/codigo_produto_origem",
+              "title": "Codigo_produto_origem",
+              "type": "integer",
+              "examples": [
+                1234
+              ],
+              "default": 0
+            },
+            "codigo_tipo_produto_oferta": {
+              "$id": "#root/json/elegilibilidade/codigo_tipo_produto_oferta",
+              "title": "Codigo_tipo_produto_oferta",
+              "type": "string",
+              "default": "",
+              "examples": [
+                ""
+              ],
+              "pattern": "^.*$"
+            }
+          }
+        }
+
+      }
+    }
+  ,
+    "url": {
+      "$id": "#root/url",
+      "title": "Url",
+      "type": "string",
+      "default": "",
+      "examples": [
+        "https://postman-echo.com/post"
+      ],
+      "pattern": "^.*$"
+    }
+  }
+}
