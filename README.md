@@ -33,9 +33,9 @@ O projeto possui duas features:
 
 o Projeto traz dois entendimentos referente as testes:
 
-**1** - As condições de tipo de produto e origem, são de fato as que estão no escopo, logo temos produtos que elegem clientes e produtos que não elegem, e qualquer outro produto que não foi citado será considerado como produto Inexistente, então ao meu ver é necessário testar todos produtos positivos e negativos;
+**1** - As condições de tipo de produto e origem, são de fato as que estão no escopo, logo temos produtos que elegem clientes e produtos que não elegem e qualquer outro produto que não foi citado será considerado como produto Inexistente, então ao meu ver é necessário testar todos produtos positivos e negativos;
 
-**2** -  Apenas os produtos que elegem são importantes, logo tudo que for diferente disso, o cliente não será eleito, então não a necessidade de criar testes para todos os produtos que não elegem o cliente, e também não teriamos uma mensagem de produto inexistente.
+**2** -  Apenas os produtos que elegem são importantes, logo tudo que for diferente disso, o cliente não será eleito, então não a necessidade de criar testes para todos os produtos que não elegem o cliente, também não teriamos uma mensagem de produto inexistente.
 
 Esse projeto segue com testes referente a opção 1.
 
@@ -106,15 +106,19 @@ Para não permitir que nossos clientes cadastrem senhas inválidas
 ### ⚙️Questionamentos e sugestões
 
 Qual seria a principal motivação da criação do sistema?
+
 O que é considerado uma senha válida?
+
 Quais os requisitos e complexidade de uma senha válida? (Caracteres, tamanho, combinações)
-A senha teria uma data de expiração, e uma validação para não criar senhas iguais as anteriores?
+A senha teria uma data de expiração e uma validação para não criar senhas iguais as anteriores?
+
+
 Qual seria a mensagem para uma senha inválida? Seria bom ter uma instrução dos requisitos da senha.
 O validador tem um site específico ou seria um portal de integração com ontros sistemas?
 Quais os beneficios, e resultados esperados com a criação do validador?
 
 Para uma melhor modelagem, precisamos saber requisitos e complexidade das senhas, precisamos saber a dor e o desejo final do cliente.
-Então sugiro Dor e Dods, Prazo de entrega e regras de negócio detalhadas.
+Então sugiro Dor e Dods, Prazo de entrega, regras de negócio detalhadas e uma documentação viva.
 
 
 ## 🛠️ Construído com
